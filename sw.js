@@ -25,10 +25,10 @@ self.addEventListener('install', function(event) {
       return cache.addAll(
         [ 
           './',
-          'data/restaurants.json',
-          'js/dbhelper.js',
-          'js/main.js',       
-          'js/restaurant_info.js',
+          './data/restaurants.json',
+          './js/dbhelper.js',
+          './js/main.js',       
+          './js/restaurant_info.js',
           'https://unpkg.com/leaflet@1.3.1/dist/leaflet.css',
           'https://unpkg.com/leaflet@1.3.1/dist/leaflet.js',
           'https://api.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.css',
@@ -59,8 +59,7 @@ self.addEventListener('install', function(event) {
           'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1204/1538.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
           'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1207/1538.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
           'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1204/1540.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
-          'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1207/1540.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg'
-         
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1207/1540.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg'         
         ]
       );
     })
