@@ -26,6 +26,7 @@ self.addEventListener('install', function(event) {
         [ 
           './',
           'data/restaurants.json',
+          'manifest.json',
           'js/dbhelper.js',
           'js/main.js',       
           'js/restaurant_info.js',
@@ -37,7 +38,16 @@ self.addEventListener('install', function(event) {
           'https://sys920.github.io/Restaurant-Reviews-App/data/restaurants.json',
           'css/styles.css',
           'index.html',
-          'restaurant.html',
+          'restaurant.html?id=1',
+          'restaurant.html?id=2',
+          'restaurant.html?id=3',
+          'restaurant.html?id=4',
+          'restaurant.html?id=5',
+          'restaurant.html?id=6',
+          'restaurant.html?id=7',
+          'restaurant.html?id=8',
+          'restaurant.html?id=9',
+          'restaurant.html?id=10',
           'img/1.jpg',
           'img/2.jpg',
           'img/3.jpg',
@@ -61,7 +71,20 @@ self.addEventListener('install', function(event) {
           'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1204/1538.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
           'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1207/1538.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
           'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1204/1540.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
-          'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1207/1540.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg'         
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/12/1207/1540.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+           
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19297/24639.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19299/24639.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19297/24640.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19299/24640.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19296/24639.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24639.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19296/24640.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19300/24640.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19295/24639.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24639.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19295/24640.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24640.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg'
         ]
       );
     })
@@ -73,6 +96,9 @@ self.addEventListener('fetch',function(event) {
     caches.match(event.request).then(function(response) {
       console.log(event.request)
       return response || fetch(event.request)
+    })
+    .catch(function() {
+      console.log("fetch error")
     })
   );
 });
