@@ -84,7 +84,9 @@ self.addEventListener('install', function(event) {
           'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19295/24639.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
           'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24639.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
           'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19295/24640.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
-          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24640.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg'
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19301/24640.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19298/24639.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg',
+          'https://api.tiles.mapbox.com/v4/mapbox.streets/16/19298/24640.jpg70?access_token=pk.eyJ1IjoieW91bmdzb29zaGluIiwiYSI6ImNqcHhndXgydzFhd2I0M28wMjluZnl4eHIifQ.JI4FkMWGpsaTSwNPXbpfUg'
         ]
       );
     })
